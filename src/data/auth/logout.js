@@ -1,5 +1,8 @@
 import Cookies from 'universal-cookie';
 
+import config from '../config';
+import getCompleteApiUrl from '../getCompleteApiUrl';
+
 async function logout() {
     const cookies = new Cookies();
 
